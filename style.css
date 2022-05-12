@@ -1,0 +1,80 @@
+.text {
+    font-size: 30px;
+    color: gray;
+    background-color: black;
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+    margin: 50px;
+    
+}
+
+.link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 7.5px;
+    margin-left: 20px;
+    position: relative;
+    top: 0px;
+    border-bottom: 3px solid lightblue;
+    border-right: 3px dotted lightgoldenrodyellow;
+}
+
+.link:hover
+{
+    background-color: green;
+}
+
+.button {
+    position: relative;
+    top: 0px;
+    left: 200px;
+    border: 2px solid black;
+}
+
+.rightTopText
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.center {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image
+{
+    width: 50%;
+    height: 200px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    flex-direction: column;
+}
+
+.divButton
+{
+    margin: 1   0px;
+}
+.paragraph1
+{
+    background-color: gray;
+    z-index: 1; 
+}
+.paragraph2
+{
+    background-color: lightgray;
+    position: relative;
+    top: -30px;
+    z-index: -1;
+}
